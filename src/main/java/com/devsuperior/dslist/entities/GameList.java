@@ -13,8 +13,8 @@ import jakarta.persistence.Table;
 public class GameList {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	Long id;
-	String name;
+	private Long id;
+	private String name;
 	public GameList() {
 		super();
 	}
