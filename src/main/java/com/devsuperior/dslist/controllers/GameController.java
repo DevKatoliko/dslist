@@ -31,4 +31,6 @@ public class GameController {
 		var response = gameService.findById(id);
 		return ResponseEntity.status(HttpStatus.OK).body(response);
 	}
+	
+	
 }
